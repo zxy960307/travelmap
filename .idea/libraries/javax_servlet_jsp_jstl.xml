@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="javax.servlet.jsp.jstl">
+    <CLASSES>
+      <root url="jar://D:/Install/tomcat/apache-tomcat-8.5.29/lib/javax.servlet.jsp.jstl.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

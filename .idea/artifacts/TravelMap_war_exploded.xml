@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="TravelMap:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/TravelMap_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="TravelMap/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="TravelMap" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="javax.servlet.jsp.jstl" />
+          <element id="library" level="project" name="servlet-api" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.36" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="directory" name="war" />
+        <element id="dir-copy" path="$PROJECT_DIR$/web/resources" />
+        <element id="dir-copy" path="$PROJECT_DIR$/out/artifacts" />
+      </element>
+    </root>
+  </artifact>
+</component>

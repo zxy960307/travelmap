@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="TravelMap">
+    <output-path>$PROJECT_DIR$/out/artifacts/TravelMap</output-path>
+    <root id="archive" name="TravelMap.war">
+      <element id="artifact" artifact-name="TravelMap:war exploded" />
+      <element id="dir-copy" path="$PROJECT_DIR$/web/WEB-INF" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="javax.servlet.jsp.jstl" />
+          <element id="library" level="project" name="servlet-api" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.36" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
